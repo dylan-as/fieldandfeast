@@ -57,5 +57,20 @@ table {
 
 /* ROOT VARIABLES */
 
+:root {
 
+    /* COLOR PALETTE */
+
+    --midnight-blue: #1f2a44;
+    --olive-green: #76885b;
+    --champagne-gold: #e5c185;
+    --linen: #f8f4ec;
+    --dk-charcoal: #2b2b2b;
+    --soft-white: #faf9f6;
+
+    /* FONT STACK */
+
+    --fonts: "Playfair Display", "Times New Roman", serif;
+
+}
 
