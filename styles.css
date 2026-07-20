@@ -74,3 +74,12 @@ table {
 
 }
 
+/* GLOBAL STYLES */
+
+body {
+    max-width: 450px;
+    font-family: var(--fonts);
+    background-color: var(--soft-white);
+    line-height: 1.5;
+}
+
