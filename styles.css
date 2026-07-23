@@ -67,6 +67,7 @@ table {
     --linen: #f8f4ec;
     --dk-charcoal: #2b2b2b;
     --soft-white: #faf9f6;
+    --lt-charcoal: #bebdb8;
 
     /* FONT STACK */
 
@@ -158,7 +159,7 @@ h2 {
     padding: 1vh 1vh;
     border-radius: 10px;
     margin: 1vh 0vh;
-    box-shadow: 5px 5px;
+      box-shadow: 2px 2px 2px var(--lt-charcoal);
 }
 
 
@@ -175,5 +176,32 @@ h3 {
 
 /* #gallery styling */
 
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery div {
+    width: 90%;
+    background-color: var(--soft-white);
+    color: var(--dk-charcoal);
+    font-style: italic;
+    font-size: .8rem;
+    margin: 1vh auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--lt-charcoal);
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+#gallery p {
+    text-align: center;
+    padding: .5vh 0;
+}
 
 
