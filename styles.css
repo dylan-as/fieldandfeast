@@ -255,17 +255,19 @@ footer a:hover {
     color: var(--soft-white);
 }
 
-/* media query 600px */
+/* media query 600px (medium) */
+
+/* fix #offerings and add responsive images. #offerings is inheriting block display from css reset code instead of from #offerings selector */
 
 @media only screen and (min-width: 600px) {
-    #offerings {
+    /* #offerings {
         display: grid;
         grid-template-columns: repeat (2, 1fr);
     }
 
     #basket {
         grid-column: 1 / -1;
-    }
+    } */
 
 
     #gallery {
@@ -282,9 +284,9 @@ footer a:hover {
     }
     }
 
-/* media query 900px */
+/* media query 900px (large) */
 
-/* media query 1200px */
+/* media query 1200px (xl) */
 
 
 
