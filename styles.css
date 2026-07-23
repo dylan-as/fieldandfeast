@@ -140,17 +140,23 @@ nav a:hover {
 
 h2 {
     color: var(--midnight-blue);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding-top: 2vh;
+}
+
+#offerings {
+    display: flex;
+    flex-direction: column;
 }
 
 #offerings div {
     background-color: var(--olive-green);
     color: var(--soft-white);
-    
-
-
+    padding: 1vh 1vh;
+    border-radius: 10px;
+    margin: 1vh 0vh;
+    box-shadow: 5px 5px;
 }
 
 h3 {
