@@ -209,11 +209,12 @@ img {
     padding: .5vh 0;
 }
 
-#div a {
+div a {
+    display: block;
     background-color: var(--olive-green);
     color: var(--soft-white);
     width: 90%;
-    margin: 1vh auto;
+    margin: 2vh auto;
     border-radius: 5px;
     text-align: center;
     padding: 1vh;
@@ -221,7 +222,7 @@ img {
     font-weight: bold;
 }
 
-#div a:hover {
+div a:hover {
     color: var(--lt-charcoal);
 }
 
@@ -274,7 +275,11 @@ footer a:hover {
     #gallery a {
         display: block;
     }
-}
+
+    #gallery section {
+        grid-column: 1 / -1;
+    }
+    }
 
 /* media query 900px */
 
