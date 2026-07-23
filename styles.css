@@ -92,6 +92,10 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border-top: 2px solid var(--champagne-gold);
+}
+
 
 /* header styles */
 
@@ -220,10 +224,37 @@ img {
     color: var(--lt-charcoal);
 }
 
-/* footer & address styling */
+/* footer & address styling/pseudostyling */
 
 address, footer {
     background-color: var(--midnight-blue);
+    padding: 10vh auto;
+    text-align: center;
+    padding: 5vh;
+    color: var(--soft-white);
+}
+
+address a {
+    color: var(--champagne-gold);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+address a:hover {
+    color: var(--soft-white);
+}
+
+address a::after {
+    color: var(--soft-white);
+}
+
+footer a {
+    color: var(--champagne-gold);
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--soft-white);
 }
 
 
