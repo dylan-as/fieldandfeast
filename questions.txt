@@ -1,4 +1,3 @@
 1. bulleted UL issue
-2. 600px media query: #offerings section not responding. is it my overarching formatting that is the issue, or am i implementing the grid layout wrong? in dev tools #offerings is inheriting from css reset and not element selector. why is this? 
-3. should I rework the whole display for the site? should I default to grid instead of flex? 
-4. will media queries override body {max-width} arguments? 
+2. image responsivity and adjusting height/width when setting images to fill out an element (#gallery) in mobile, large, XL
+3. adjustments to srcset etc -- where am i going wrong here?
