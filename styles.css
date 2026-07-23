@@ -204,4 +204,28 @@ img {
     padding: .5vh 0;
 }
 
+#gallery a {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    width: 90%;
+    margin: 1vh auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#gallery a:hover {
+    color: var(--lt-charcoal);
+}
+
+/* footer & address styling */
+
+address, footer {
+    background-color: var(--midnight-blue);
+}
+
+
+
 
