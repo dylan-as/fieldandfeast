@@ -83,12 +83,14 @@ body {
     background-color: var(--soft-white);
     line-height: 1.5;
     margin: auto;
+    font-size: 1.1rem;
 
 }
 
 a {
     text-decoration: none;
 }
+
 
 /* header styles */
 
@@ -159,11 +161,20 @@ h2 {
     box-shadow: 5px 5px;
 }
 
+
+#offerings div ul {
+    display: list-item;
+    list-style-type: circle;
+}
+
 h3 {
     padding-top: 0.5;
     font-weight: bold;
     font-size: 1.5rem;
+    color: var(--midnight-blue)
 }
+
+/* #gallery styling */
 
 
 
