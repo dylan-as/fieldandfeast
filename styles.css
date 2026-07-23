@@ -136,4 +136,28 @@ nav a:hover {
     color: var(--linen);
 }
 
+/* #offerings styles */
+
+h2 {
+    color: var(--midnight-blue);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+#offerings div {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    
+
+
+}
+
+h3 {
+    padding-top: 0.5;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
 
