@@ -153,10 +153,6 @@ h2 {
     padding-top: 2vh;
 }
 
-#offerings {
-    display: flex;
-    flex-direction: column;
-}
 
 #offerings div {
     background-color: var(--olive-green);
@@ -168,10 +164,10 @@ h2 {
 }
 
 
-#offerings div ul {
+/* #offerings div ul {
     display: list-item;
     list-style-type: circle;
-}
+} */
 
 h3 {
     padding-top: 0.5;
@@ -262,10 +258,15 @@ footer a:hover {
 /* media query 600px */
 
 @media only screen and (min-width: 600px) {
-    #offerings {
+    div {
         display: grid;
         grid-template-columns: repeat (2, 1fr);
     }
+
+    #basket {
+        grid-column: 1 / -1;
+    }
+
 
     #gallery {
         display: grid;
