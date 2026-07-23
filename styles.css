@@ -196,8 +196,8 @@ h3 {
     box-shadow: 2px 2px 2px var(--lt-charcoal);
 }
 
-img {
-    width: auto;
+#gallery img {
+    width: 100%;
     height: auto;
 }
 
