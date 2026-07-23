@@ -259,7 +259,7 @@ footer a:hover {
 
 /* fix #offerings and add responsive images. #offerings is inheriting block display from css reset code instead of from #offerings selector */
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) { */
     /* #offerings {
         display: grid;
         grid-template-columns: repeat (2, 1fr);
@@ -270,7 +270,7 @@ footer a:hover {
     } */
 
 
-    #gallery {
+    /* #gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -283,11 +283,11 @@ footer a:hover {
         grid-column: 1 / -1;
     }
 
-    }
+    } */
 
 /* media query 900px (large) */
 
-@media only screen and (min-width: 900px) {
+/* @media only screen and (min-width: 900px) {
 
     #gallery {
         display: grid;
@@ -302,9 +302,18 @@ footer a:hover {
         grid-column: 1 / -1;
     }
 
-}
+} */
 
 /* media query 1200px (xl) */
+/* 
+@media only screen and (min-width: 1200px) {
+    body {
+        max-width: 1200px;
+    }
+
+    
+
+} */
 
 
 
