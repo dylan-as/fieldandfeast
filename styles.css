@@ -180,7 +180,9 @@ h3 {
 #gallery {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
+
 
 #gallery div {
     width: 90%;
@@ -256,6 +258,12 @@ footer a:hover {
 }
 
 /* media query 600px (medium) */
+
+@media only screen and (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 /* fix #offerings and add responsive images. #offerings is inheriting block display from css reset code instead of from #offerings selector */
 
