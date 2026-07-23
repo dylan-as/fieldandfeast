@@ -1,3 +1,4 @@
 1. bulleted UL issue
 2. adjustments to srcset etc -- where am i going wrong here? how can i check which item is being pulled? 
 4. why do div and section interact with css selectors and grid displays differently? 
+5. when to use flexbox and when to use grid? I was previously taught flexbox is the 'better' solution than grid and rely on it maybe too heavily for some things 
