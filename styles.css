@@ -110,7 +110,8 @@ header {
 }
 
 header img {
-    max-width: 60%;
+    max-width: 25%;
+    height: auto;
 }
 
 header h1 {
@@ -120,7 +121,6 @@ header h1 {
 
 header p {
     font-style: italic;
-    font-size: 1.5rem;
 }
 
 /* nav styles */
@@ -306,15 +306,31 @@ body {
 }
 
 /* media query 1200px (xl) */
-/* 
+
 @media only screen and (min-width: 1200px) {
     body {
         max-width: 1200px;
     }
 
+        #offerings {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2vw;
+    }
+
+        #basket {
+        grid-column: 1 / -1;
+    }
+
+    #gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1vw;
+    }
     
 
-} */
+}
 
 
 
