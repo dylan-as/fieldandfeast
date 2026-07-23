@@ -85,9 +85,10 @@ body {
     line-height: 1.5;
     margin: auto;
     font-size: 1.1rem;
-    display: grid;
-
 }
+
+main 
+
 
 a {
     text-decoration: none;
@@ -260,9 +261,17 @@ footer a:hover {
 /* media query 600px (medium) */
 
 @media only screen and (min-width: 600px) {
-    main {
+    #offerings {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #basket {
+        grid-column: 1 / -1;
+    }
+
+
+
 }
 
 /* fix #offerings and add responsive images. #offerings is inheriting block display from css reset code instead of from #offerings selector */
