@@ -259,6 +259,11 @@ footer a:hover {
 /* media query 600px (medium) */
 
 @media only screen and (min-width: 600px) {
+
+body {
+    max-width: 600px;
+}
+
     #offerings {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -275,26 +280,30 @@ footer a:hover {
     }
 }
 
-
-
 /* media query 900px (large) */
 
-/* @media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) {
 
-    #gallery {
+    body {
+        max-width: 900px;
+    }
+
+    #offerings {
         display: grid;
-        grid-template-columns: repeat (3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2vw;
     }
 
-    #gallery a {
-        display: block;
-    }
-
-    #gallery section {
+        #basket {
         grid-column: 1 / -1;
     }
 
-} */
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
 
 /* media query 1200px (xl) */
 /* 
