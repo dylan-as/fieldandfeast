@@ -282,9 +282,27 @@ footer a:hover {
     #gallery section {
         grid-column: 1 / -1;
     }
+
     }
 
 /* media query 900px (large) */
+
+@media only screen and (min-width: 900px) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+    }
+
+    #gallery a {
+        display: block;
+    }
+
+    #gallery section {
+        grid-column: 1 / -1;
+    }
+
+}
 
 /* media query 1200px (xl) */
 
