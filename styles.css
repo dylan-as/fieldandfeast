@@ -223,7 +223,7 @@ div a:hover {
     color: var(--lt-charcoal);
 }
 
-/* footer & address styling/pseudostyling */
+/* footer & address styling/pseuds */
 
 address, footer {
     background-color: var(--midnight-blue);
